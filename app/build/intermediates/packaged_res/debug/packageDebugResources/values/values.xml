@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="ic_launcher_background">#FF201A31</color>
+    <string name="app_name">TodoX</string>
+    <string name="delete_todo_content_description">Todoを削除</string>
+    <string name="due_date_label">%1$s %2$s</string>
+    <string name="edit_clear_due">締切をクリア</string>
+    <string name="edit_daily">デイリー</string>
+    <string name="edit_delete">削除</string>
+    <string name="edit_due_date">締切日</string>
+    <string name="edit_due_time">締切時刻</string>
+    <string name="edit_note_hint">メモ</string>
+    <string name="edit_priority">優先度</string>
+    <string name="edit_save">保存</string>
+    <string name="edit_tags">タグ（カンマ区切り）</string>
+    <string name="edit_title_hint">タイトル</string>
+    <string name="edit_todo_content_description">Todoを編集</string>
+    <string name="empty_state_message">まだTodoがありません。右下のボタンから追加しましょう。</string>
+    <string name="fab_add">追加</string>
+    <string name="menu_settings">設定</string>
+    <string name="notification_channel_description">Todoの締切リマインダー</string>
+    <string name="notification_default_body">予定された締切の時間です</string>
+    <string name="priority_high">高</string>
+    <string name="priority_label">優先度: %1$s</string>
+    <string name="priority_low">低</string>
+    <string name="priority_mid">中</string>
+    <string name="settings_export">データエクスポート</string>
+    <string name="settings_import">データインポート</string>
+    <string name="settings_notification_permission">通知を有効にする</string>
+    <string name="settings_notification_permission_description">Todoの締切通知のために通知権限が必要です</string>
+    <string name="settings_request_permission">権限をリクエスト</string>
+    <string name="settings_reset_hour">デイリーリセット時刻</string>
+    <string name="settings_reset_hour_summary">毎日この時刻にデイリータスクを未完に戻します</string>
+    <string name="settings_reset_hour_value">%1$02d:00</string>
+    <string name="settings_title">設定</string>
+    <string name="tab_all">すべて</string>
+    <string name="tab_done">完了</string>
+    <string name="tab_today">今日</string>
+    <string name="toggle_done_content_description">完了切替</string>
+    <style name="Theme.TodoX" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+    </style>
+</resources>

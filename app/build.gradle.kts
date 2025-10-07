@@ -3,16 +3,17 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
     namespace = "com.example.todox"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.todox"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0.0"
 
@@ -74,6 +75,7 @@ dependencies {
     implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.bundles.room)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.material)
     implementation("androidx.compose.material:material-icons-extended")
 
     ksp(libs.androidx.room.compiler)

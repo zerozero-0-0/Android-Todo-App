@@ -30,6 +30,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.todox.App
+import com.example.todox.data.model.Todo
 import com.example.todox.ui.edit.EditScreen
 import com.example.todox.ui.settings.SettingsScreen
 import com.example.todox.ui.theme.TodoXTheme
